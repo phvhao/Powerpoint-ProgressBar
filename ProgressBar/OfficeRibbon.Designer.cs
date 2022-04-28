@@ -60,6 +60,7 @@
             this.positionGroup.SuspendLayout();
             this.themeGroup.SuspendLayout();
             this.group4.SuspendLayout();
+            this.SuspendLayout();
             // 
             // colorDialog_Active
             // 
@@ -276,6 +277,7 @@
             this.themeGroup.PerformLayout();
             this.group4.ResumeLayout(false);
             this.group4.PerformLayout();
+            this.ResumeLayout(false);
 
         }
 
